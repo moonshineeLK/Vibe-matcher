@@ -1,0 +1,48 @@
+print("🌷 Welcome to vibe-matcher~ 🌷")
+
+name = input("\nWhat's your name? ")
+print(f"\nHiee {name}")
+hobby = input("\nWhat's your hobby? ")
+
+print("\n1. Athletic:- sports, running, fitness")
+print("2. creative:- Art, music, writing, pottery, making anything")
+print("3. intellectual:- chess, studying, reading, problem solving ")
+print("4. tech:- coding, gaming, exploring internet, editing")
+print("5. self-loving:- cooking, clicking photos, baking, skincare, sleeping")
+print("6. chill:- watching movies, reading comics, reading novels")
+print("7. explore:- hiking, riding, travelling, gardening")
+
+choice = input("\nChoose the one group that your hobby fits in. 1-7:  ")
+
+if choice == "1":
+    print("\nOh, so you are the energy ball, huh, you are likely to be competetive and with too much wisedom too because trust me, you learn your lessons from lossing and when you have athlectics hobbies like that then you might have experience losing atleast once")
+    print("\nYour aesthetic: Sportcore 💪🏻")
+    
+elif choice == "2":
+    print("\nOh, you are the box full of ideas then, you are likely to feel emotions deeply and you poured them into whatever you make, your hobby might be a way to release those emotions maybe, honestly, i admire creative people like you a lot!")
+    print("\nYour aesthetic: Artcore 🌸")
+    
+elif choice == "3":
+    print("\nOh, the stragetic one, you think in layers that's how you do your hobbies, you are also very focused and calm one, the one who is always thinking three steps ahead. You can stay calm even under pressure, because you do that as hobby when you are just bored, duh")
+    print("\nYour aesthetic: Dark academia 🍁🍂")
+    
+elif choice == "4":
+    print("\nOh, the digital genius, you are likely to be a homebody and a introvert, often spending cozy time in yours rooms with no drama, you are likely to be mysterious or too weird, nothing in between")
+    print("\nYour aesthetic: Cyberpunk 👩🏻‍💻")
+    
+elif choice == "5":
+    print("\nOh, the calm one, you are likely to be calm, quiet one, who likes to be their own, you have this mysterious vibes, for you alone time after long day is like recharging, you might have fewer but real friends because you choose your people very carefully")
+    print("\nYour aesthetic: Cottagecore 🌼")
+    
+elif choice == "6":
+    print("\nOh, the cozy one, you are likely to be veryy chill type or a overthinker and use your hobbies as a escape from reality.")
+    print("\nYour aesthetic: Dreamcore ✨🌙")
+    
+elif choice == "7":
+    print("\nOh, you are the explorer,you like feeling alive and being in nature, you are a free-spirit who can't stay indoors and is always upto something. You also accept challenges and embrace them with open arms. You like doing things that are hard to achieve only to feel that satisfaction after achieving them. Your life is full of fun.")
+    print("\nYour aesthetic: Nomadic naturalist 🌾")
+    
+else:
+    print("\nExcuse me!? It says from 1 TO 7!! 💢☺️")
+    
+
